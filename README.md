@@ -14,7 +14,7 @@ A retro, pixel-themed single-page application (SPA) portfolio built to showcase 
 - **JavaScript (ES6+)** (Dynamic navigation & SPA routing logic)
 
 ## 🚀 Live Demo
-Check out the portfolio live: [https://mantasha1501.github.io/portfolio](https://mantasha1501.github.io/portfolio) *(Update link once GitHub Pages is enabled)*
+Check out the portfolio live: [https://mantasha1501.github.io/portfolio](https://mantasha1501.github.io/portfolio/) 
 
 ---
 Crafted with pixels • © 2026 Mantasha
