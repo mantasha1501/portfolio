@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mantasha | Pixel Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Pixelify+Sans:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Screen Reader Live Region -->
+  <div id="sr-announcer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Header & Navigation -->
+  <header class="pixel-box header-box">
+    <div class="brand">
+      <h1 class="logo-text">MANTASHA.DEV</h1>
+    </div>
+    <nav aria-label="Main Navigation">
+      <ul class="nav-links">
+        <li><button class="pixel-btn nav-btn active" data-page="home" aria-current="page">Home</button></li>
+        <li><button class="pixel-btn nav-btn" data-page="about">About</button></li>
+        <li><button class="pixel-btn nav-btn" data-page="skills">Skills</button></li>
+        <li><button class="pixel-btn nav-btn" data-page="projects">Projects</button></li>
+        <li><button class="pixel-btn nav-btn" data-page="contact">Contact</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main View Container -->
+  <main id="app" class="pixel-container">
+
+    <!-- PAGE 1: HOME -->
+    <section id="home" class="page-view active" aria-labelledby="home-heading">
+      <div class="pixel-box hero-card">
+        <div class="hero-text full-width">
+          <span class="welcome-tag">SYSTEM ONLINE</span>
+          <h2 id="home-heading">Hi, I'm Mantasha</h2>
+          <p class="subtitle">Computer Science Student & Software Developer building efficient applications, responsive web interfaces, and modern React components.</p>
+          
+          <div class="terminal-box">
+            <span class="terminal-prompt">> status: ready for deployment</span>
+            <span class="terminal-prompt">> focus: react, algorithms, and clean architecture</span>
+          </div>
+
+          <div class="cta-group">
+            <button class="pixel-btn primary nav-btn" data-page="projects">View Projects</button>
+            <a href="https://github.com/mantasha1501" class="pixel-btn" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/mantasha-shaikh-9830583aa/" class="pixel-btn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 2: ABOUT -->
+    <section id="about" class="page-view" aria-labelledby="about-heading" hidden>
+      <div class="pixel-box about-container">
+        <h2 id="about-heading" class="page-title">Developer Profile</h2>
+        
+        <div class="about-grid">
+          <div class="about-bio-card">
+            <h3>Background & Focus</h3>
+            <p class="bio-text">
+              Computer Science student deeply passionate about modern frontend engineering, component-driven architecture with React.js, and structured algorithmic problem-solving. I love building responsive, user-friendly interactive web applications.
+            </p>
+            <div class="terminal-box sm">
+              <span class="terminal-prompt">> focus: react ecosystem & logic apps</span>
+              <span class="terminal-prompt">> stack: react, javascript, html/css, c++</span>
+            </div>
+          </div>
+
+          <div class="about-stats-card">
+            <h3>Technical Breakdown</h3>
+            <div class="skill-pill-container">
+              <span class="pixel-tag">React.js & Hooks</span>
+              <span class="pixel-tag">Frontend Architecture</span>
+              <span class="pixel-tag">Data Structures & Trees</span>
+              <span class="pixel-tag">Algorithmic Problem Solving</span>
+              <span class="pixel-tag">Version Control (Git)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 3: SKILLS -->
+    <section id="skills" class="page-view" aria-labelledby="skills-heading" hidden>
+      <div class="pixel-box">
+        <h2 id="skills-heading" class="page-title">Skill Tree</h2>
+        
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Frontend & Frameworks</h3>
+            <ul class="pixel-list">
+              <li>React.js (Components, State, Hooks)</li>
+              <li>Modern HTML5 & Semantic CSS3</li>
+              <li>Interactive UI/UX Design Logic</li>
+              <li>DOM Manipulation & Performance</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>Core CS & Systems</h3>
+            <ul class="pixel-list">
+              <li>Data Structures (Trees, Stacks, Lists)</li>
+              <li>Algorithms & Logic Design</li>
+              <li>C++ & JavaScript / ES6+</li>
+              <li>Git & GitHub Version Control</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 4: PROJECTS -->
+    <section id="projects" class="page-view" aria-labelledby="projects-heading" hidden>
+      <h2 id="projects-heading" class="page-title">Repository Highlights</h2>
+      <div class="projects-grid">
+        
+        <article class="pixel-box project-card">
+          <div class="project-badge">FEATURED GAME</div>
+          <h3>better-chess</h3>
+          <p>An enhanced, strategic chess application engineered with precise move-validation logic and an intuitive user interface.</p>
+          <div class="tags">
+            <span class="pixel-tag">JavaScript</span>
+            <span class="pixel-tag">Game Logic</span>
+          </div>
+          <a href="https://github.com/mantasha1501/better-chess" class="pixel-btn sm" target="_blank" rel="noopener noreferrer" aria-label="View better-chess repository">View Source</a>
+        </article>
+
+        <article class="pixel-box project-card">
+          <div class="project-badge">INTERACTIVE</div>
+          <h3>sudokuforfun</h3>
+          <p>An engaging web puzzle application designed for logical gameplay, featuring clean grid mechanics and responsive layouts.</p>
+          <div class="tags">
+            <span class="pixel-tag">JavaScript</span>
+            <span class="pixel-tag">Logic</span>
+          </div>
+          <a href="https://github.com/mantasha1501/sudokuforfun" class="pixel-btn sm" target="_blank" rel="noopener noreferrer" aria-label="View sudokuforfun repository">View Source</a>
+        </article>
+
+        <article class="pixel-box project-card">
+          <div class="project-badge">SYSTEM TOOL</div>
+          <h3>browser-performance-profiler</h3>
+          <p>A utility application built to evaluate, track, and optimize web application runtime efficiency and browser performance metrics.</p>
+          <div class="tags">
+            <span class="pixel-tag">Performance</span>
+            <span class="pixel-tag">Web APIs</span>
+          </div>
+          <a href="https://github.com/mantasha1501/browser-performance-profiler" class="pixel-btn sm" target="_blank" rel="noopener noreferrer" aria-label="View browser-performance-profiler repository">View Source</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- PAGE 5: CONTACT -->
+    <section id="contact" class="page-view" aria-labelledby="contact-heading" hidden>
+      <div class="pixel-box">
+        <h2 id="contact-heading" class="page-title">Get In Touch</h2>
+        <p class="subtitle">Feel free to reach out via email at <strong>mantasha.shaikh1501@gmail.com</strong> or connect with me through my professional links below!</p>
+        
+        <div class="cta-group" style="margin-top: 1.5rem;">
+          <a href="https://www.linkedin.com/in/mantasha-shaikh-9830583aa/" class="pixel-btn primary" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/mantasha1501" class="pixel-btn" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="pixel-box footer-box">
+    <p>Crafted with pixels • © 2026 Mantasha</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
